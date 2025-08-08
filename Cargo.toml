@@ -1,0 +1,14 @@
+[package]
+name = "crlf"
+version = "1.0.0"
+edition = "2024"
+description = "A commandline tool to convert line endings in files"
+license = "MIT"
+readme = "README.md"
+authors = ["Leawind <leawind@yeah.net>"]
+
+[dependencies]
+clap = { version = "4.5.43", features = ["derive"] }
+glob = "0.3.2"
+rayon = "1.10.0"
+strum = { version = "0.27.2", features = ["derive"] }
