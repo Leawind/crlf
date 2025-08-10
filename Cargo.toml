@@ -7,6 +7,9 @@ license = "MIT"
 readme = "README.md"
 authors = ["Leawind <leawind@yeah.net>"]
 
+[[bin]]
+name = "crlf"
+
 [dependencies]
 clap = { version = "4.5.43", features = ["derive"] }
 glob = "0.3.2"
