@@ -5,6 +5,9 @@ edition = "2024"
 description = "A commandline tool to convert line endings in files"
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/Leawind/crlf"
+keywords = ["cli", "crlf", "line-ending", "convert"]
+categories = ["command-line-utilities"]
 authors = ["Leawind <leawind@yeah.net>"]
 
 [[bin]]
